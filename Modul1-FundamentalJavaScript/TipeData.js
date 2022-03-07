@@ -1,24 +1,24 @@
 let x;
-console.log(typeof(x));
+console.log(typeof (x));
 /* Output: Undefined 
 Fungsi typeof() digunakan untuk memastikan tipe data pada variabel dengan mengembalikan tipe data tersebut dalam bentuk teks.
 */
 
 let y = 10;
-console.log(typeof(y))
+console.log(typeof (y))
 /* Output Number */
 
 let z = 17.25;
-console.log(typeof(z))
+console.log(typeof (z))
 /* Output Number */
 
 let a = 12;
 let b = 9;
-console.log (a + b)
-console.log (a - b)
-console.log (a * b)
-console.log (a / b)
-console.log (a % b)
+console.log(a + b)
+console.log(a - b)
+console.log(a * b)
+console.log(a / b)
+console.log(a % b)
 /* output:
 21
 3
@@ -34,7 +34,7 @@ console.log(postfix++);
 console.log(postfix);
 /* Output 6 */
 
-let prefix =  5; 
+let prefix = 5;
 console.log(++prefix);
 /* Output 6 */
 
@@ -62,9 +62,9 @@ console.log(5n % 2n)
 */
 
 let greet = "Hello";
-console.log(typeof(greet))
+console.log(typeof (greet))
 /* Output String */
-let moreGreet = greet + greet ;
+let moreGreet = greet + greet;
 console.log(moreGreet);
 /* Output Hello Hello*/
 
@@ -82,8 +82,8 @@ console.log(`Hello, my name is ${myName}.`);
 
 let t = true;
 let f = false;
-console.log(typeof(t))
-console.log(typeof(f))
+console.log(typeof (t))
+console.log(typeof (f))
 /* output:
 boolean
 boolean
@@ -100,3 +100,7 @@ console.log(isLess);
 false
 true
 */
+
+let someLaterData = null;
+console.log(someLaterData);
+/* output: null */
