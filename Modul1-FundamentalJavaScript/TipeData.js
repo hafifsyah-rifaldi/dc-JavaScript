@@ -26,3 +26,14 @@ console.log (a % b)
 1.3333333333333333
 3
 */
+
+/* Increment Decrement */
+let postfix = 5;
+console.log(postfix++);
+/* Output 5 */
+console.log(postfix);
+/* Output 6 */
+
+let prefix =  5; 
+console.log(++prefix);
+/* Output 6 */
