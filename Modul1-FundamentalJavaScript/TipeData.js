@@ -64,3 +64,9 @@ console.log(5n % 2n)
 let greet = "Hello";
 console.log(typeof(greet))
 /* Output String */
+
+const question = '"What do you think of JavaScript?" I asked';
+console.log(question)
+/* output: "What do you think of JavaScript?" I asked */
+const answer = '"I think it\'s awesome!" he answered confidently';
+console.log(answer)
