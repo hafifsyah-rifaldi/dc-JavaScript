@@ -60,3 +60,7 @@ console.log(5n % 2n)
 2n; Bukan 2.5n
 1n
 */
+
+let greet = "Hello";
+console.log(typeof(greet))
+/* Output String */
