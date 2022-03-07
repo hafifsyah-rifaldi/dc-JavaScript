@@ -78,3 +78,13 @@ console.log("Windows path: C:\\Program Files\\MyProject");
 const myName = "Luke";
 console.log(`Hello, my name is ${myName}.`);
 /* output: Hello, my name is Luke. */
+
+
+let t = true;
+let f = false;
+console.log(typeof(t))
+console.log(typeof(f))
+/* output:
+boolean
+boolean
+*/
