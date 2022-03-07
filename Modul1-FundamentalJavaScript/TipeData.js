@@ -88,3 +88,15 @@ console.log(typeof(f))
 boolean
 boolean
 */
+
+const d = 10;
+const e = 12;
+let isGreater = d > e;
+let isLess = d < e;
+
+console.log(isGreater);
+console.log(isLess);
+/* output:
+false
+true
+*/
