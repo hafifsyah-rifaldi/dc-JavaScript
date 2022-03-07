@@ -64,9 +64,14 @@ console.log(5n % 2n)
 let greet = "Hello";
 console.log(typeof(greet))
 /* Output String */
+let moreGreet = greet + greet ;
+console.log(moreGreet);
+/* Output Hello Hello*/
 
 const question = '"What do you think of JavaScript?" I asked';
 console.log(question)
 /* output: "What do you think of JavaScript?" I asked */
 const answer = '"I think it\'s awesome!" he answered confidently';
 console.log(answer)
+console.log("Windows path: C:\\Program Files\\MyProject");
+
