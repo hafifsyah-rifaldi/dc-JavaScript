@@ -75,3 +75,6 @@ const answer = '"I think it\'s awesome!" he answered confidently';
 console.log(answer)
 console.log("Windows path: C:\\Program Files\\MyProject");
 
+const myName = "Luke";
+console.log(`Hello, my name is ${myName}.`);
+/* output: Hello, my name is Luke. */
