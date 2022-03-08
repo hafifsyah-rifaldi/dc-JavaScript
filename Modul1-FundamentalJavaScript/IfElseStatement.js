@@ -48,3 +48,16 @@ console.log(`Anda mendapatkan diskon sebesar ${discount * 100}%`)
 /* output
 Anda mendapatkan diskon sebesar 0%
  */
+
+let name = "";
+
+if(name) {
+    console.log(`Halo, ${name}`);
+} else {
+    console.log("Nama masih kosong");
+}
+
+/* output:
+Nama masih kosong
+ */
+
