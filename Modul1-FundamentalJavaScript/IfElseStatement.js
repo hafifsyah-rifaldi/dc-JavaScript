@@ -21,3 +21,20 @@ if(x > 70) {
 /* output
 Nilai kurang dari 70
 */
+
+
+let language = "French";
+let greeting = "Selamat Pagi"
+
+if (language === "English") {
+    greeting = "Bonjour!"
+} else if(language === "French") {
+    greeting = "Bonjour!"
+} else if(language === "Japanese") {
+    greeting = "Ohayou Gozaimasu!"
+}
+
+console.log(greeting);
+/* Output
+Bonjour!
+*/
