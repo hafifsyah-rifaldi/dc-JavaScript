@@ -21,3 +21,9 @@ Han
 Chewbacca
 Leia
 */
+
+let f = 1;
+while (f <= 100) {
+    console.log(f)
+    f++;
+}
