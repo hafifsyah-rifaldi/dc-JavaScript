@@ -27,3 +27,16 @@ while (f <= 100) {
     console.log(f)
     f++;
 }
+
+/*
+1
+~
+~
+100
+*/
+
+let g = 1;
+do {
+    console.log(g);
+    g++
+} while (g <= 100);
