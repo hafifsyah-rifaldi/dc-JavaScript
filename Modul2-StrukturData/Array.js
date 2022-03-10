@@ -45,3 +45,12 @@ console.log(myArray);
 myArray.shift(); // Metode shift() digunakan untuk mengeluarkan elemen pertama dari array
 myArray.unshift("Apple"); // unshift() digunakan untuk menambahkan elemen di awal array.
 console.log(myArray);
+
+
+//Menghapus elemen menggunakan metode splice()
+myArray.splice(2, 1); // Menghapus dari index 2 sebanyak 1 elemen
+console.log(myArray);
+
+/* output
+[ 'Cokelat', 42.5, true, 'Programming' ]
+*/
