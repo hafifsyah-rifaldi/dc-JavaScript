@@ -24,3 +24,11 @@ Programming
 undefined
 Panjang nilai myArray adalah 5.
 */
+
+
+//Menambahkan data ke dalam array metode push()
+myArray.push('JavaScript');
+console.log(myArray);
+/* output
+[ 'Cokelat', 42.5, 22, true, 'Programming', 'JavaScript' ]
+ */
