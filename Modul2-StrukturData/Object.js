@@ -31,6 +31,7 @@ const spaceship = {
 
 spaceship.color = "Glossy red";
 spaceship["maxSpeed"] = 1300;
+spaceship.class = "Light freighter";
 console.log(spaceship);
 /* output
 {
@@ -38,5 +39,6 @@ console.log(spaceship);
   manufacturer: 'Corellian Engineering Corporation',
   maxSpeed: 1300,
   color: 'Glossy red'
+  class: 'Light freighter'
 }
  */
