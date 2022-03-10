@@ -32,3 +32,10 @@ console.log(myArray);
 /* output
 [ 'Cokelat', 42.5, 22, true, 'Programming', 'JavaScript' ]
  */
+
+//Mengeluarkan data elemen terakhir dari array menggunakan metode pop()
+myArray.pop();
+console.log(myArray);
+/* output
+[ Orange, 42.5, 22, true ]
+*/
