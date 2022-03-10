@@ -4,8 +4,9 @@ const profile = {
     age: 18
 }
 
-const {firstName, lastName, age} = profile;
+const {firstName, lastName, age, isMale} = profile;
 console.log(firstName, lastName, age);
+console.log(isMale);
 /* output:
 John Doe 18
 */
