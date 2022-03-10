@@ -4,9 +4,10 @@ const profile = {
     age: 18
 }
 
-const {firstName, lastName, age, isMale} = profile;
+const {firstName, lastName, age, isMale, isFemale = false} = profile;
 console.log(firstName, lastName, age);
 console.log(isMale);
+console.log(isFemale); //  opsional mendefinisikan nilai default pada properti tertentu jika tidak ditemukan
 /* output:
 John Doe 18
 */
