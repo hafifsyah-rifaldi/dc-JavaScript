@@ -71,3 +71,9 @@ Setelah swap
 Nilai a: 2
 Nilai b: 1
 */
+
+//! Menambah nilai default variabel
+const paporit = ["Sushi"];
+const [sayaFood, diaFood = "Ikan"] = paporit
+console.log(sayaFood);
+console.log(diaFood);
