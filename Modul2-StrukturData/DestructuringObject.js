@@ -11,7 +11,15 @@ console.log(isFemale); //  opsional mendefinisikan nilai default pada properti t
 /* output:
 John Doe 18
 */
-
+const {firstName: localFirstName, lastName:localLastName, age: localAge} = profile;// Assigning to Different Local Variable Names
+console.log(localFirstName);
+console.log(localLastName);
+console.log(localAge);
+/* output:
+John
+Doe
+18
+*/
 
 //Destructuring Assignment 
 const profil = {
