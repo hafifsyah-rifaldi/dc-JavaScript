@@ -39,3 +39,9 @@ console.log(myArray);
 /* output
 [ Orange, 42.5, 22, true ]
 */
+
+
+//Metode lain
+myArray.shift(); // Metode shift() digunakan untuk mengeluarkan elemen pertama dari array
+myArray.unshift("Apple"); // unshift() digunakan untuk menambahkan elemen di awal array.
+console.log(myArray);
