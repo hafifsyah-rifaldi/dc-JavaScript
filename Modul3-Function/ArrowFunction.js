@@ -18,3 +18,8 @@ const sayHi = (greet) => {
 const sayNama = (nama) => {
     console.log(`Nama saya ${nama}`)
 }
+
+sayNama("Leia");
+/* output
+Nama saya Leia
+*/
