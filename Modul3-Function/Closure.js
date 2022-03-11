@@ -37,3 +37,23 @@ halo, Wan Obi */
 /* 
 Kode di atas akan menghasilkan output yang sama. 
 Perbedaannya adalah fungsi greet() dikembalikan (return) dari outer function-nya sebelum dieksekusi. */
+
+let counter = 0;
+let add = () => {
+    return ++counter;
+}
+
+console.log(add());
+console.log(add());
+counter = 23;
+console.log(add());
+/* output
+1
+2
+24
+ */
+/* 
+Nilai counter akan bertambah ketika kita memanggil fungsi add(). 
+Namun, kita juga bisa mengubah nilai counter secara langsung dengan assignment operator. 
+Pada contoh program yang lebih kompleks, 
+sebaiknya hal ini dihindari karena perubahan langsung pada nilai counter bisa saja memunculkan bug. */
