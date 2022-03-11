@@ -57,3 +57,20 @@ Nilai counter akan bertambah ketika kita memanggil fungsi add().
 Namun, kita juga bisa mengubah nilai counter secara langsung dengan assignment operator. 
 Pada contoh program yang lebih kompleks, 
 sebaiknya hal ini dihindari karena perubahan langsung pada nilai counter bisa saja memunculkan bug. */
+
+//* Closure memungkinkan kita membuat fungsi dan variabel seolah menjadi private. Seperti inilah contoh program counter yang dibuat dengan closure:
+let tambah = () => {
+    let counter = 0;
+    return () => {
+        return ++counter;
+    };
+}
+let addCounter = tambah();
+console.log(addCounter());
+console.log(addCounter());
+console.log(addCounter());
+/* output
+1
+2
+3
+ */
