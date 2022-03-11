@@ -23,3 +23,10 @@ sayNama("Leia");
 /* output
 Nama saya Leia
 */
+
+//* Jika tidak membutuhkan parameter, dapat menuliskan tanda kurung kosong
+const sayPagi = () => {
+    console.log("Selamat pagi semuanya!")
+};
+
+sayPagi();
