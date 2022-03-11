@@ -1,14 +1,16 @@
 function greeting(name, language) {
     if(language === "English") {
-        console.log(`Good Morning ${name}!`);
+        return `Good Morning ${name}!`;
     } else if (language === "French") {
-        console.log(`Bonjour ${name}!`);
+        return `Bonjour ${name}!`;
     } else {
-        console.log(`Selamat Pagi ${name}!`);
+        return `Selamat Pagi ${name}!`;
     }
 }
 
-greeting("Harry", "French");
+let greetingMessage = greeting("Harry", "French");
+console.log(greetingMessage);
+
 /* output
 Bonjour Harry!
 */
