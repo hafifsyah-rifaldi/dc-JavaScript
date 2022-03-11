@@ -30,3 +30,15 @@ const sayPagi = () => {
 };
 
 sayPagi();
+
+
+//* Ketika body dari function terdiri dari satu baris, dapat menghapus tanda kurung kurawal untuk hemat baris kode yang ditulis
+const sebutNama = nama => console.log(`Nama saya ${nama}`);
+sebutNama("Hafif");
+
+const sebutHello = () => console.log("Selamat pagi semuanya");
+sebutHello();
+/* Output
+Nama saya Hafif
+Selamat Pagi semuanya!
+*/
