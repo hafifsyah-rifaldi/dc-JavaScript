@@ -11,4 +11,5 @@ Pada modul ini kita akan membahas beberapa hal terkait OOP, seperti:
 - Penggunaan property & method.
 - Object Composition.
 - Contoh object/class bawaan dari JavaScript.
-  Mari kita lanjut ke materi selanjutnya!
+
+Mari kita lanjut ke materi selanjutnya!
