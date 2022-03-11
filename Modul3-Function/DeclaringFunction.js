@@ -1,8 +1,15 @@
-function greeting() {
-    console.log("Good Morning!");
+function greeting(name, language) {
+    if(language === "English") {
+        console.log(`Good Morning ${name}!`);
+    } else if (language === "French") {
+        console.log(`Bonjour ${name}!`);
+    } else {
+        console.log(`Selamat Pagi ${name}!`);
+    }
 }
 
-greeting();
+greeting("Harry", "French");
 /* output
-Good Morning!
+Bonjour Harry!
 */
+
