@@ -24,3 +24,19 @@ console.log(result)
 /* output
 20
 */
+
+//! Expression Function
+const sapaan = function(nama, bahasa) {
+    if(bahasa === "Inggris") {
+        return "Good Morning " + nama + "!";
+    } else if (bahasa === "Perancis") {
+        return "Bonjour " + nama + "!";
+    } else {
+        return "Selamat Pagi " + nama + "!";
+    }
+}
+
+console.log(sapaan('Hafif', 'Inggris'));
+/* output
+Selamat Pagi Hafif
+*/
