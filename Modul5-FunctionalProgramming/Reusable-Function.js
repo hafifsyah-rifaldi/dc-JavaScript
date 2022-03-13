@@ -42,3 +42,30 @@ console.log(eligibleForScholarshipStudents);
  * [ { name: 'James', score: 88 }, { name: 'Ron', score: 90 } ]
  * 
  */
+
+//* ARRAY REDUCE
+const anotherStudents = [
+    {
+        name: 'Harry',
+        score: 60,
+    },
+    {
+        name: 'James',
+        score: 88,
+    },
+    {
+        name: 'Ron',
+        score: 90,
+    },
+    {
+        name: 'Bethy',
+        score: 75,
+    }
+];
+const totalScore = anotherStudents.reduce((acc, student) => acc + student.score, 0);
+console.log(totalScore);
+/**
+ * output:
+ * 313
+ * 
+ */
