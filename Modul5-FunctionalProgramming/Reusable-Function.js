@@ -106,7 +106,7 @@ output
 { name: 'James', score: 88 }
 **/
 
-//* ARRAY SORT
+//* ARRAY SORT pengurutan tipe data string
 const months = ['March', 'Jan', 'Feb', 'Dec'];
 months.sort();
 console.log(months);
@@ -116,3 +116,16 @@ const array1 = [1, 30, 4, 1000, 101, 121];
 array1.sort();
 console.log(array1);
 // output: [ 1, 1000, 101, 121, 30, 4 ]
+
+//* ARRAY SORT mengurutkan dengan kriteria yg diinginkan (tanggal/nilai siswa)
+const array2 = [1, 30, 4, 1000];
+
+const compareNumber = (a, b) => {
+    return a - b;
+};
+const sorting = array2.sort(compareNumber);
+console.log(sorting);
+/**
+output
+[ 1, 4, 30, 1000 ]
+**/
