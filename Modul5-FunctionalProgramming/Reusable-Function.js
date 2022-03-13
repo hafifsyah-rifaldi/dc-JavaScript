@@ -140,3 +140,34 @@ console.log(examPassed);
 output
 true
 **/
+
+//* Array forEach Cara Imperatif
+const names = ['Harry', 'Ron', 'Jeff', 'Thomas'];
+ 
+for(let i = 0; i < names.length; i++) {
+  console.log(`Hello, ${names[i]}!`);
+}
+ 
+/**
+ * output:
+ * Hello, Harry!
+ * Hello, Ron!
+ * Hello, Jeff!
+ * Hello, Thomas!
+ * 
+ */
+//* Array forEach Cara Deklaratif
+const names2 = ['Harry', 'Ron', 'Jeff', 'Thomas'];
+ 
+names2.forEach((name) => {
+  console.log(`Hello, ${name}!`);
+});
+ 
+/**
+ * output:
+ * Hello, Harry!
+ * Hello, Ron!
+ * Hello, Jeff!
+ * Hello, Thomas!
+ * 
+ */
