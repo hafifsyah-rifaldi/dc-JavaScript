@@ -72,7 +72,7 @@ console.log({
  *  }
 */
 
-//* Immutability
+//* IMMUTABILITY
 /* Konsep yang kedua adalah immutability. Immutable berarti sebuah objek tidak boleh diubah setelah objek tersebut dibuat.
 Kontras dengan mutable yang artinya objek boleh diubah setelah objek tersebut dibuat.
 Konsep immutability sangat kental pada paradigma FP.
@@ -139,3 +139,24 @@ menjadi createUserWithNewLastName.
 Hal itu perlu untuk mengindikasikan bahwa
 fungsi mengembalikan atau menghasilkan objek user baru.
 */
+
+
+//* REKURSIF
+/* Kita akan mencoba mengubah fungsi countDown yang biasanya kita buat 
+menggunakan sintaksis iterasi seperti 
+for, foreach, while seperti kode di bawah menjadi bentuk rekursif. */
+/* //! const countDown = start => {
+  //!  do {
+  //!      console.log(start);
+  //!      start -=1;
+  //!  }
+  //!  while(start > 0);
+ //! };
+//!  countDown(10); */
+//* Maka, bentuk rekursinya sebagai berikut:
+const countDown = start => {
+    console.log(start);
+    if(start > 0) countDown(start-1);
+};
+
+countDown(10);
