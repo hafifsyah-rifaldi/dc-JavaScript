@@ -9,3 +9,15 @@ const myAge = birthday => {
     return diffDate.getFullYear() - 1970; // 1970 adalah representasi 0 dari miliseconds
 };
 console.log(myAge(`1999-05-25`)); // 22 Tahun
+
+
+
+//* Selain date, dapat menggunakan built-in class js lainnya
+
+const listOfContent = [1,2,"President", {}];
+console.log(Array.isArray(listOfContent));
+//result is TRUE
+
+const splitText = "12:20:00".split(':');
+console.log(splitText);
+// result is [ `12`, `20`, `00`]
