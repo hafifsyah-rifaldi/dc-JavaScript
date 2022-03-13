@@ -78,3 +78,30 @@ console.log(even);
 /**
  * output true
  */
+
+//* ARRAY FIND
+const lainStudents = [
+    {
+      name: 'Harry',
+      score: 60,
+    },
+    {
+      name: 'James',
+      score: 88,
+    },
+    {
+      name: 'Ron',
+      score: 90,
+    },
+    {
+      name: 'Bethy',
+      score: 75,
+    }
+  ];
+
+const findJames = lainStudents.find(student => student.name === 'James');
+console.log(findJames);
+/**
+output
+{ name: 'James', score: 88 }
+**/
