@@ -26,8 +26,8 @@ let greatAuthors = books.filter((books) => books.sales > 1000000);
 console.log(greatAuthors);
 
 
-const newNames = greatAuthors.map((books) =>{return `${books.author} adalah penulis buku ${books.title} yang sangat hebat!` });
-console.log(newNames);
+greatAuthors = greatAuthors.map((books) =>{return `${books.author} adalah penulis buku ${books.title} yang sangat hebat!` });
+console.log(greatAuthors); 
   
   
   /**
