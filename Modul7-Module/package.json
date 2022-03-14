@@ -1,0 +1,13 @@
+{
+  "name": "modul7-module",
+  "version": "1.0.0",
+  "description": "Ketika aplikasi sudah semakin berkembang, kita bisa saja menuliskan seluruh kode hanya dalam satu berkas. Namun, bayangkan Anda harus mencari baris kode yang menimbulkan bug dari ribuan bahkan jutaan baris kode. Sudah terbayang repotnya bukan? Untuk itulah penting untuk membagi project menjadi beberapa berkas berdasarkan tugas dan fungsinya.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index2.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
