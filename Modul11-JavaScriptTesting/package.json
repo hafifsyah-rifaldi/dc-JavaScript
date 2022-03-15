@@ -1,0 +1,14 @@
+{
+  "name": "modul11-javascripttesting",
+  "version": "1.0.0",
+  "description": "Setelah kita mempelajari tentang dasar-dasar dalam pemrograman JavaScript, seperti menuliskan perintah dan menerapkan paradigma-paradigma yang populer maka proses selanjutnya adalah publikasi ke pengguna. Namun, sebelum sebuah program dipublikasikan, seharusnya sebuah program harus melalui tahap pengujian terlebih dahulu. Proses pengujian tersebut digunakan untuk melakukan kontrol kualitas dari kode yang kita tulis, memastikan bahwa software yang akan dipublikasikan ke pengguna minim adanya kecacatan atau bugs. Oleh sebab itu, sebagai seorang pemrogram kita harus melakukan testing saat proses pengembangan perangkat lunak.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
