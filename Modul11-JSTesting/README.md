@@ -4,7 +4,7 @@ Setelah kita mempelajari tentang dasar-dasar dalam pemrograman JavaScript, seper
 
 Sebuah proses pengujian perangkat lunak dapat dilakukan secara:
 
-- Manual\_\_
+- Manual<br />
   Proses pengujian secara manual oleh seorang yang ditunjuk sebagai test, atau sebagian pengguna yang memang mendapatkan akses untuk pengujian pre-release. Proses ini biasanya berkaitan dengan usability, accessibility dari sebuah aplikasi.
 
 - Otomatis
