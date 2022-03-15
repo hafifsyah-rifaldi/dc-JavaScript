@@ -1,1 +1,0 @@
-// Penambahan syntax pada scripts : "test" : "jest"
