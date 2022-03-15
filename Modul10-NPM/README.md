@@ -9,3 +9,11 @@ Pada modul ini kita akan belajar mengenai beberapa hal berikut:
 - Menghapus package yang sudah tidak digunakan.
 
 Mari kita mulai!
+
+## Rangkuman Materi
+
+Pada modul ini kita telah membahas seputar Node Package Manager (NPM) untuk mengelola kode atau package milik orang lain ke dalam project kita. Seharusnya Anda sudah bisa menggunakan perintah dasar NPM seperti:
+
+- Menginstal package melalui NPM.
+- Menggunakan package untuk membantu pengembangan aplikasi.
+- Menghapus proyek yang sudah tidak digunakan.
