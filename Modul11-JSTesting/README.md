@@ -7,28 +7,28 @@ Sebuah proses pengujian perangkat lunak dapat dilakukan secara:
 - Manual<br />
   Proses pengujian secara manual oleh seorang yang ditunjuk sebagai test, atau sebagian pengguna yang memang mendapatkan akses untuk pengujian pre-release. Proses ini biasanya berkaitan dengan usability, accessibility dari sebuah aplikasi.
 
-- Otomatis
+- Otomatis<br />
   Proses pengujian secara otomatis dilakukan oleh komputer dengan menuliskan script khusus, biasanya dilakukan oleh software engineer langsung ataupun oleh seorang QA Engineer. Proses ini biasanya berkaitan dengan fungsionalitas dari sebuah aplikasi.
 
 Dari proses pengujian di atas, jenis-jenis pengujian dalam pengembangan perangkat lunak secara umum dapat dibagi menjadi 4 jenis pengujian, yaitu:
 
-- Static test
+- Static test<br />
   Memastikan tidak adanya typo (naming convention yang standar) dan memastikan tidak ada error types.
 
-- Unit test
+- Unit test<br />
   Dilakukan untuk memastikan bahwa setiap unit kode yang kita tulis sudah bisa bekerja sesuai harapan. Unit sendiri berarti komponen terkecil yang dapat diuji secara terisolasi dalam perangkat lunak yang kita buat, dapat berupa fungsi bahkan kelas jika kita menggunakan paradigma OOP. Proses ini juga dapat diautomasikan.
 
-- Integration test
+- Integration test<br />
   Memastikan beberapa serangkaian fungsi yang saling ketergantungan satu sama lain berjalan semestinya. Proses pengujian ini dapat dilakukan secara diautomasikan dengan menuliskan script test.
 
-- End-to-End test
+- End-to-End test<br />
   Proses pengujian sebuah aplikasi untuk menguji flow dari awal hingga akhir, layaknya seorang user saat menggunakan aplikasi. Memastikan bahwasanya aplikasi berfungsi selayaknya. Biasanya proses ini dapat dilakukan secara otomatis maupun manual oleh tester.
 
 Dalam modul ini, kita akan mempelajari bagaimana cara membuat sebuah pengujian secara otomatis. Proses automasi ini digunakan untuk memudahkan proses pengujian yang repetitive terhadap sebuah kasus umum. Sehingga kita tidak perlu lagi melakukan uji secara manual satu persatu pada sebuah fungsi atau perintah.
 
 Ketika kita menulis sebuah kasus pengujian (test case), maka ada beberapa poin yang harus kita definisikan terlebih dahulu:
 
-- Apa yang ingin diuji?
+- Apa yang ingin diuji?<br />
   Misalkan: Melakukan uji pada fungsi menghitung rata-rata nilai siswa, atau dapat juga melakukan pengujian pada proses registrasi akun, dan lain sebagainya.
 
 - Ekspektasi apa yang diharapkan?
